@@ -1,8 +1,8 @@
-e = float(input("Masukkan Jumlah Detik : "))
-a = e / 86400
-b = e % 86400
-c = b / 3600
-f = b % 3600
-d = f / 60
-e = f % 60
+e = int (input ("Masukkan Jumlah Detik : "))
+a = int (e / 86400)
+b = int (e % 86400)
+c = int (b / 3600)
+f = int (b % 3600)
+d = int (f / 60)
+e = int (f % 60)
 print ("%.0f hari %.0f:%.0f:%.0f" % (a,c,d,e))
